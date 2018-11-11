@@ -1,0 +1,60 @@
+Node+REACT Course
+
+> npm init => package.json
+> npm install --save express => install express
+> index.js
+> Make changes to deploy on Heroku (2.12)
+> git init
+> git add .
+> git commit -m “Initial commit”
+> Passport.js + Passport strategy => Authentication library
+ - npm install --save passport passport-google-oauth20
+> Setup Google OAuth (aka Google+ APIs)
+ - ClientID = Public token
+ - Client Secret = Private token
+> Nodemon => to avoid having to restart node every time we make a change
+ - npm install --save nodemon
+ - package.json => "dev": "nodemon index.js
+ - npm run dev
+> Code Refactor
+> Mongo DB and mongoose.js
+ - mlab.com
+ - npm install --save mongoose
+> Set Cookie
+ - npm install --save cookie-session
+
+-----
+React
+-----
+
+npm install create-react-app (Needed???)
+npm init react-app client
+npm install --save concurrently
+npm install http-proxy-middleware --save
+
+ToDo Later
+
+Use PayPal payments
+Use PayPal OAuth
+Use Kraken
+Move to GCP
+Move to PayPal Git (Maybe?)
+
+To install
+Robomongo
+Prettier
+
+GIT
+git status
+git add .
+git commit -m "comment"
+git push origin master
+
+URLs
+
+https://pplearn.udemy.com/node-with-react-fullstack-web-development/learn/v4/t/lecture/7603018?start=0
+http://localhost:5000/auth/google
+https://cloud.mongodb.com
+https://mlab.com/home
+http://sre-system.paypalcorp.com:5000/auth/google
+https://facebook.github.io/create-react-app/docs/getting-started
