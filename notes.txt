@@ -3,7 +3,7 @@ Node+REACT Course
 > npm init => package.json
 > npm install --save express => install express
 > index.js
-> Make changes to deploy on Heroku (2.12)
+> Make changes to deploy on Heroku (2.12) <- SKIPPED
 > git init
 > git add .
 > git commit -m “Initial commit”
@@ -26,14 +26,22 @@ Node+REACT Course
 -----
 React
 -----
-
 npm install create-react-app (Needed???)
 npm init react-app client
 npm install --save concurrently
 npm install http-proxy-middleware --save
 
-ToDo Later
+> React router and Redux + react-redux library + webpack
+npm install --save redux react-redux react-router-dom
+> Materialize css
+npm install -- save materialize-css
 
+> Axios and Redux thunk
+npm install --save axios redux-thunk
+
+----------
+ToDo Later
+----------
 Use PayPal payments
 Use PayPal OAuth
 Use Kraken
@@ -41,7 +49,6 @@ Move to GCP
 Move to PayPal Git (Maybe?)
 
 To install
-Robomongo
 Prettier
 
 GIT
