@@ -1,5 +1,6 @@
+-----------------
 Node+REACT Course
-
+-----------------
 > npm init => package.json
 > npm install --save express => install express
 > index.js
@@ -22,7 +23,6 @@ Node+REACT Course
  - npm install --save mongoose
 > Set Cookie
  - npm install --save cookie-session
-
 -----
 React
 -----
@@ -39,6 +39,11 @@ npm install -- save materialize-css
 > Axios and Redux thunk
 npm install --save axios redux-thunk
 
+------
+Stripe
+------
+npm install --save react-stripe-checkout
+
 ----------
 ToDo Later
 ----------
@@ -46,19 +51,18 @@ Use PayPal payments
 Use PayPal OAuth
 Use Kraken
 Move to GCP
-Move to PayPal Git (Maybe?)
 
-To install
-Prettier
-
+---
 GIT
+---
 git status
 git add .
 git commit -m "comment"
 git push origin master
 
+----
 URLs
-
+----
 https://pplearn.udemy.com/node-with-react-fullstack-web-development/learn/v4/t/lecture/7603018?start=0
 http://localhost:5000/auth/google
 https://cloud.mongodb.com
