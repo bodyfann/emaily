@@ -42,7 +42,10 @@ npm install --save axios redux-thunk
 ------
 Stripe
 ------
-npm install --save react-stripe-checkout
+npm install --save react-stripe-checkout // Frontend
+npm install --save stripe // Backend
+npm install --save body-parser
+npm run build //To build for production
 
 ----------
 ToDo Later
