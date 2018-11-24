@@ -33,7 +33,7 @@ npm install http-proxy-middleware --save
 
 > React router and Redux + react-redux library + webpack
 npm install --save redux react-redux react-router-dom
-> Materialize css
+> Materialize css components
 npm install -- save materialize-css
 
 > Axios and Redux thunk
@@ -47,6 +47,26 @@ npm install --save stripe // Backend
 npm install --save body-parser
 npm run build //To build for production
 
+--------
+SendGrid
+--------
+npm install --save sendgrid
+
+----------
+Redux Form
+----------
+npm install --save redux-form
+
+-----------
+LocalTunnel
+-----------
+npm install --save localtunnel
+
+--------------------------
+Libraries for parsing data
+--------------------------
+npm install --save lodash path-parser
+
 ----------
 ToDo Later
 ----------
@@ -54,6 +74,7 @@ Use PayPal payments
 Use PayPal OAuth
 Use Kraken
 Move to GCP
+Use MailChimp
 
 ---
 GIT
@@ -72,3 +93,5 @@ https://cloud.mongodb.com
 https://mlab.com/home
 http://sre-system.paypalcorp.com:5000/auth/google
 https://facebook.github.io/create-react-app/docs/getting-started
+https://sendgrid.com/
+https://localtunnel.me
