@@ -22,6 +22,16 @@ module.exports = app => {
     res.send("Thanks for voting!");
   });
 
+  app.delete("/api/surveys/:surveyId", requireLogin, async (req, res) => {
+    Survey.findById(req.params.surveyId)
+      .then(survey => {
+        survey.delete().then(() => res.json({ success: true }));
+      })
+      .catch(err =>
+        res.status(404).json({ surveynotfound: "No survey found" })
+      );
+  });
+
   app.post("/api/surveys/webhooks", (req, res) => {
     const p = new Path("/api/surveys/:surveyId/:choice");
 
